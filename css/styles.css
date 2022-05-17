@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    /* Primary */
+    --bg-main: hsla(87, 58%, 93%, 1);
+
+    /* Font Colours */
+    --light: hsl(120, 15%, 88%);
+    --dark: hsl(185, 29%, 67%);
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: var(--bg-main);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas:
+        "top      top"
+        "bottom   bottom";
+    padding-top: 20%;
+}
+
+.brand__name-container {
+    writing-mode: tb-rl;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 20%;
+    padding-left: 10%;
+    position: relative;
+}
+
+.brand__name-rotate {
+    transform: rotate(180deg);
+}
+.brand__name-rotate::after {
+    content: "xyz";
+    position: absolute;
+    transform: rotate(90deg);
+    top: 215px;
+    right: 72px;
+}
+
+.brand__name-text {
+    color: var(--light);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero {
+    color: var(--dark);
+    font-size: max(3vw, 2em, 2rem);
+    grid-area: top;
+}
