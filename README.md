@@ -30,7 +30,7 @@ Personal branding.
 
 ## Site links
 
-Live [https://www.NickOD.xyz]()
+[NickOD.xyz](https://www.NickOD.xyz)
 
 <br>
 
