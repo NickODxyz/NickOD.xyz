@@ -10,6 +10,20 @@ This is my personal site. Containing my portfolio, about me and contact.
 
 <br>
 
+## Site To-Do
+
+- Mobile navigation
+- Sections:
+	- Home / Hero
+	- About Me
+	- Portfolio
+	- Contact Form
+	- Footer / Social Contacts
+- Smooth scrolling
+- Portfolio modals
+
+<br>
+
 ## What I learned
 
 Personal branding.
