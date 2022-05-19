@@ -14,6 +14,7 @@ This is my personal site. Containing my portfolio, about me and contact.
 
 - Mobile navigation
 - Sections:
+	- Navbar
 	- Home / Hero
 	- About Me
 	- Portfolio
